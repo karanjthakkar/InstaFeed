@@ -1,0 +1,19 @@
+{
+  "name": "InstaFeed",
+  "version": "0.0.1",
+  "description": "Test",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karanjthakkar/InstaFeed/"
+  },
+  "keywords": [
+    "instagram"
+  ],
+  "author": "Karan Thakkar",
+  "license": "Simplified BSD",
+  "dependencies": {
+    "express": "^4.10.2",
+    "instagram-node": "^0.5.1"
+  }
+}
