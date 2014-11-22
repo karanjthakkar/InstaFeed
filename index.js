@@ -3,8 +3,8 @@ var api = require('instagram-node').instagram();
 var app = express();
 
 api.use({
-  client_id: 01aa43eeb22142ed8ea8819adfaee95a,
-  client_secret: 02408ca932d844f194ddbb2b5c9783ae
+  client_id: '01aa43eeb22142ed8ea8819adfaee95a',
+  client_secret: '02408ca932d844f194ddbb2b5c9783ae'
 });
 
 var redirect_uri = 'http://ec2-54-148-28-246.us-west-2.compute.amazonaws.com:1337/';
