@@ -14,6 +14,7 @@
   "license": "Simplified BSD",
   "dependencies": {
     "express": "^4.10.2",
-    "instagram-node": "^0.5.1"
+    "instagram-node": "^0.5.1",
+    "mongodb": ""
   }
 }
