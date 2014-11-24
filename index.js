@@ -40,6 +40,9 @@ app.get('/authorize_user', exports.authorize_user);
 // This is your redirect URI
 app.get('/handleauth', exports.handleauth);
 
+// This is your redirect URI
+app.get('/testconnect', exports.testConnect);
+
 app.listen(1337, function () {
   console.log('Express server listening on port ' + 1337);
 });
